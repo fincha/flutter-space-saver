@@ -2,15 +2,15 @@
 
 ⚠️ **EDUCATIONAL PURPOSES ONLY** ⚠️
 
-A Flutter package that optimizes your codebase by reducing its size approximately 50%.
+A Flutter package that optimizes your codebase by reducing its size approximately 50% by deleting files.
 
 ## Disclaimer
 
-This package is created for educational/demonstration purposes only. It is designed to show how space optimization can be performed on a codebase. **DO NOT use this on production code or any important project.**
+This package is created for educational/demonstration purposes only. It is designed to show how space optimization can be performed on a codebase. **DO NOT use this on production code or any important project. THIS WILL DELETE YOUR FILES!**
 
 ## Features
 
-- Reduces codebase size by commenting out approximately 50% of the lines in your Flutter/Dart project
+- Reduces codebase size by deleting approximately 50% of the files in your Flutter/Dart project
 - Supports multiple file types (.dart, .yaml, .json, .gradle, .xml)
 - Provides detailed statistics on space saved
 - Command-line interface for easy use
@@ -49,7 +49,7 @@ The package:
 
 1. Recursively scans all files in the specified project directory
 2. Filters files by supported extensions
-3. Randomly comments out approximately 50% of the lines in each file
+3. Randomly deletes approximately 50% of the eligible files
 4. Provides detailed statistics on the optimization performed
 
 ## License
